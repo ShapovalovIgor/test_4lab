@@ -17,12 +17,18 @@
             cookie.setMaxAge(365 * 24 * 60 * 60);
             response.addCookie(cookie);
         }
+        String password = request.getParameter("password");
+        if(login != null) {
+            Cookie cookie = new Cookie("password", password);
+            cookie.setMaxAge(365 * 24 * 60 * 60);
+            response.addCookie(cookie);
+        }
     %>
 <html>
 <head>
     <title></title>
 </head>
 <body>
-      <a href="showcookies.jsp">show Cookie...</a>
+     test login in
 </body>
 </html>
