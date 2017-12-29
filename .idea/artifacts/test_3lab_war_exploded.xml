@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test_3lab:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_3lab_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="test_4lab/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test_4lab" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-api-1.2.1" />
+          <element id="library" level="project" name="OracleDriver" />
+          <element id="library" level="project" name="JPA 2.1-JPA 2.1" />
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="activemq:activemq-store-jdbc:2.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

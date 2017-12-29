@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="Hibernate" />
+        <datasource-mapping>
+          <factory-entry name="ACCOUNT" value="39543eca-e5d9-4f88-a343-f8ccfe4e2e4e" />
+          <factory-entry name="CustomerAppPU" />
+        </datasource-mapping>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="GlassFish 4.1.0 - JSF" level="application_server_libraries" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="GlassFish 4.1.0" level="application_server_libraries" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="javax.servlet:com.springsource.javax.servlet.jsp.jstl:1.2.0.v20110728" level="project" />
+    <orderEntry type="library" exported="" name="OracleDriver" level="project" />
+    <orderEntry type="library" exported="" name="javax.servlet.jsp.jstl-api-1.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Hibernate 4.2.2-4.2.2" level="project" />
+    <orderEntry type="library" exported="" name="JPA 2.1-JPA 2.1" level="project" />
+    <orderEntry type="library" name="standard-1.1.2" level="project" />
+    <orderEntry type="library" name="classes12" level="project" />
+    <orderEntry type="library" name="activemq:activemq-store-jdbc:2.0" level="project" />
+  </component>
+</module>
